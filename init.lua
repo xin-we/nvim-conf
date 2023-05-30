@@ -43,4 +43,11 @@ require("lazy").setup({
   "folke/which-key.nvim",
   { "folke/neoconf.nvim", cmd = "Neoconf" },
   "folke/neodev.nvim",
+  {
+	  "RRethy/nvim-base16",
+	  lazy = true,
+  },
 })
+
+-- color scheme
+vim.cmd.colorscheme("base16-tender")
