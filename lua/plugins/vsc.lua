@@ -19,9 +19,8 @@ return {
 	},
 	{ "tpope/vim-rhubarb", event = "VeryLazy" },
 	{
+		"rhysd/conflict-marker.vim",
 		event = "VeryLazy",
-		"tpope/vim-fugitive",
 		config = function() end,
-		cmd = "Git",
 	},
 }
